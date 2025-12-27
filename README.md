@@ -96,7 +96,7 @@ backend/
 * Payment page with Razorpay (Test Mode)
 * Ticket confirmation page with booking details
 
-### 🛠️ Admin Features
+###  Admin Features
 
 * Admin login
 * Add new buses
@@ -120,7 +120,7 @@ backend/
 | Backend  | Render        |
 | Database | MongoDB Atlas |
 
-🔗 **Frontend URL:**
+🔗 **Application URL:**
 [https://bus-ticket-booking-lovat.vercel.app/](https://bus-ticket-booking-lovat.vercel.app/)
 
 ---
