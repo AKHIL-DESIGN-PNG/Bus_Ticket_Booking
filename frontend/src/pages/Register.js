@@ -8,7 +8,7 @@ function Register() {
   const [password, setPassword] = useState("");
 
   const register = async () => {
-    await axios.post("http://localhost:5000/api/users/register", {
+    await axios.post("https://bus-ticket-booking-352x.onrender.com/api/users/register", {
       name,
       email,
       password

@@ -6,7 +6,7 @@ function AdminDashboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/bookings/all")
+      .get("https://bus-ticket-booking-352x.onrender.com/api/bookings/all")
       .then(res => setBookings(res.data));
   }, []);
 
