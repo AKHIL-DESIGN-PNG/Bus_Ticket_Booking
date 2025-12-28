@@ -9,7 +9,7 @@ function AdminAddBus() {
   const [totalSeats, setTotalSeats] = useState("");
 
   const addBus = async () => {
-    await axios.post("https://bus-ticket-booking-352x.onrender.com/api/admin/add-bus", {
+    await axios.post("http://localhost:5000/api/admin/add-bus", {
       busName,
       source,
       destination,

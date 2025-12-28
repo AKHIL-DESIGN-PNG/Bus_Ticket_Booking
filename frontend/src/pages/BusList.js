@@ -8,7 +8,7 @@ function BusList() {
 
   useEffect(() => {
     axios
-      .get("https://bus-ticket-booking-352x.onrender.com/api/admin/buses")
+      .get("http://localhost:5000/api/admin/buses")
       .then((res) => setBuses(res.data));
   }, []);
 

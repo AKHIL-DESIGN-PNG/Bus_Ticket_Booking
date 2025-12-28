@@ -23,7 +23,7 @@ function Payment() {
           try {
             //  Verify payment on backend
             const verifyResponse = await axios.post(
-              "https://bus-ticket-booking-352x.onrender.com/api/bookings/verify-payment",
+              "http://localhost:5000/api/bookings/verify-payment",
               {
                 razorpay_order_id: response.razorpay_order_id,
                 razorpay_payment_id: response.razorpay_payment_id,

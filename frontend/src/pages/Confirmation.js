@@ -12,7 +12,7 @@ export default function Confirmation() {
       <p>Your ticket has been generated.</p>
 
       <a
-        href={`https://bus-ticket-booking-352x.onrender.com/tickets/Ticket_${bookingId}.pdf`}
+        href={`http://localhost:5000/tickets/Ticket_${bookingId}.pdf`}
         className="btn btn-success mt-3"
         download
       >

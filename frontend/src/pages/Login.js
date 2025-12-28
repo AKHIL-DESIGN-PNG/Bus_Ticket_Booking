@@ -8,7 +8,7 @@ function Login() {
 
   const login = async () => {
     try {
-      await axios.post("https://bus-ticket-booking-352x.onrender.com/api/users/login", {
+      await axios.post("http://localhost:5000/api/users/login", {
         email,
         password
       });
