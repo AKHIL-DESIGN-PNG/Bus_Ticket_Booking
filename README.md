@@ -112,18 +112,6 @@ backend/
 
 ---
 
-##  Deployment
-
-| Layer    | Platform      |
-| -------- | ------------- |
-| Frontend | Vercel        |
-| Backend  | Render        |
-| Database | MongoDB Atlas |
-
-🔗 **Application URL:**
-[https://bus-ticket-booking-lovat.vercel.app/](https://bus-ticket-booking-lovat.vercel.app/)
-
----
 
 ##  Local Setup Instructions
 
