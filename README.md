@@ -6,7 +6,7 @@ The **Bus Ticket Booking Application (Akhil Travels)** is a **full-stack MERN we
 It also includes an **admin panel** to manage buses and bookings.
 
 This project was developed to gain **hands-on experience with full-stack development**, REST APIs, authentication, and deployment.
-
+Live demo videp : https://drive.google.com/file/d/1jGggV5wFMvdY6O6f1ohjV1wT_5rsmPL7/view?usp=sharing
 ---
 
 ## Tech Stack
